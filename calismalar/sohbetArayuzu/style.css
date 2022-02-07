@@ -1,0 +1,167 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.chat {
+    height: 100%;
+    display: flex;
+}
+
+.chat .sideBar {
+    width: 300px;
+    min-width: 300px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chat .sideBar .contacts {
+    overflow: auto;
+
+}
+
+.chat .sideBar .search {
+    height: 50px;
+    min-height: 50px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chat .sideBar .search input {
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 0 35px 0 15px;
+}
+
+.chat .sideBar .search i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 37px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.chat .sideBar .contacts ul li a {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.chat .sideBar .contacts ul li a .not {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: red;
+    font-size: 11px;
+    text-align: center;
+    line-height: 17px;
+    margin-left: auto;
+    color: #fff;
+}
+
+.chat .sideBar .contacts ul li.active a,
+.chat .sideBar .contacts ul li a:hover {
+    background: #fff;
+}
+
+.chat .sideBar .contacts ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.chat .sideBar .contacts ul li a .contact .name {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.chat .sideBar .contacts ul li a .contact .message {
+    font-size: 13px;
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.chat .content {
+    flex: 1;
+    border-left: 1px solid #ddd;
+}
+
+.chat .content .message-header {
+    height: 50px;
+    min-height: 50px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.chat .content .message-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat .content .message-header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.chat .content .message-header .user-info .user .name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+}
+
+.chat .content .message-header .user-info .user .time {
+    font-size: 13px;
+    color: #999;
+}
+
+.chat .content .message-header .actions ul li a {
+    font-size: 19px;
+    color: #999;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chat .content .message-header .actions ul li a:hover {
+    color: #222
+}
+.chat .content .message-header .actions ul {
+    display: flex;
+}

@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+body {
+    background: rgb(107, 107, 107);
+}
+
+.slider {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .4s linear;
+}
+
+.active {
+    opacity: 1;
+}
+
+.slide .inner {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+}
+
+.slide.active .inner {
+
+    opacity: 1;
+}
+
+.slide:nth-child(1) {
+    background: url(https://picsum.photos/seed/picsum/200/300) no-repeat center/cover;
+
+}
+
+.slide:nth-child(2) {
+    background: url(https://picsum.photos/seed/picsum/200/300) no-repeat center/cover;
+
+}
+
+.slide:nth-child(3) {
+    background: url(https://picsum.photos/seed/picsum/200/300) no-repeat center/cover;
+
+}
+
+.indicators {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.indicators button {
+    padding: 10px 10px;
+    font-size: 25px;
+}

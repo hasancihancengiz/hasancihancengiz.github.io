@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    --darkBlue: rgb(18, 50, 110);
+    --lightBlue: rgb(0, 113, 185);
+    --gray: rgb(207, 207, 207);
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    background: var(--darkBlue);
+    z-index: 9999;
+    box-shadow: 0.3px 0.3px 0.4px;
+}
+img{
+    transition: all 0.2s ease-in-out;
+}
+h1{
+    color: var(--darkBlue);
+    font-size: 30px;
+    font-weight: 900;
+}
+h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.navDiv {
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.menuSide,
+.logoSide {
+    display: flex;
+    align-items: center;
+    
+    width: 50vw;
+    height: 100%;
+}
+
+.logoSide img {
+    margin-left: 20px;
+    height: 5vw;
+    min-height: 30px;
+}
+
+.menuSide ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+
+    
+}
+.menuSide ul li{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    
+}
+
+.menuSide ul li a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--gray);
+    transition: all 0.3s ease-in-out;
+}
+.menuSide ul li a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.03);
+}
+header{
+    height: 30vw;
+    width: 100vw;
+    
+    
+}
+.headerDiv{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.6) 0%, rgba(255,255,255,0)),
+    url(/arkaplan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+.headerDiv div{
+    width: 100%;
+    
+    height: 33.3%;
+    
+    
+}
+.headerDiv div{
+    display: flex;
+    align-items: center;
+}
+.headerDiv .middle{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.headerDiv .middle h1{
+    color: #ffffff;
+    font-size: 130px;
+    font-weight: 200;
+    
+    
+    font-family: 'Fasthand', cursive;
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    
+    height: 400vh;
+    
+    
+}
+main .mainCont{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1160px;
+    width: 95%;
+    
+    
+   
+}
+main .mainCont .mainUpperCont{
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    max-width: 1160px;
+    width: 100%;
+}
+main .mainCont .mainUpperCont .leftSide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+   
+}
+main .mainCont .mainUpperCont .rightSide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+main .mainCont .mainUpperCont .leftSide .imgDiv{
+    
+    
+    
+    width: 100%;
+    height: auto;
+    background-image: url(/balik1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+main .mainCont .mainUpperCont .rightSide .textDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+   
+    
+    width: 90%;
+    height: 50vh;
+    
+   
+}
+
+main .mainCont .mainmiddleCont{
+    margin-bottom: 2vw;
+    background-image: url(/balik2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    
+}
+main .mainCont .mainmiddle2Cont{
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    max-width: 1160px;
+    width: 100%;
+}
+main .mainCont .mainmiddle2Cont .leftSide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+   
+}
+main .mainCont .mainmiddle2Cont .rightSide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+   
+}
+
+main .mainCont .mainmiddle2Cont .rightSide .imgDiv{
+    width: 100%;
+    height: auto;
+    background-image: url(/kurumsal1.png);
+    background-position: center;
+    background-size: cover;
+}
+main .mainCont .mainmiddle2Cont .leftSide .textDiv h1{
+    
+    text-align: start;
+}
+main .mainCont .mainmiddle2Cont .leftSide .textDiv h2{
+    
+    
+}
+main .mainCont .mainmiddle2Cont .leftSide .textDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+   
+    
+    width: 90%;
+    height: 50vh;
+    
+   
+}
+main .mainCont .mainlowerCont{
+    
+    background-image: url(/balik4.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav{
+        height: 50px;
+    }
+    .menuSide ul{
+        display: none;
+    }
+    main .mainCont .mainlowerCont,
+    main .mainCont .mainmiddleCont,
+    .headerDiv{
+        background-attachment: initial;
+        margin-bottom: 100px;
+        
+    }
+    
+
+
+    main .mainCont .mainmiddle2Cont{
+        flex-direction: column-reverse;
+    }
+    main .mainCont .mainUpperCont{
+        
+        flex-direction: column;
+        
+    }
+   
+    main .mainCont .mainmiddle2Cont .rightSide .imgDiv,
+    main .mainCont .mainUpperCont .leftSide .imgDiv{
+        width: 100%;
+        height: 60vw;
+        background-position: center;
+        
+        
+    }
+    main .mainCont .mainmiddle2Cont .leftSide .textDiv,
+    
+    main .mainCont .mainUpperCont .rightSide .textDiv{
+       
+        height: 30vw;
+        width: 100%;
+        
+        
+       
+    }
+    main .mainCont .mainmiddle2Cont .leftSide .textDiv h1,
+    main .mainCont .mainUpperCont .rightSide .textDiv h1{
+        
+        font-size: 4vw;
+        
+    }
+    main .mainCont .mainmiddle2Cont .leftSide .textDiv h2,
+    main .mainCont .mainUpperCont .rightSide .textDiv h2{
+        
+        font-size: 3vw;
+        
+    }
+    main .mainCont .mainmiddle2Cont .leftSide,
+    main .mainCont .mainUpperCont .rightSide{
+        text-align: end;
+        padding-right: 10px;
+    }
+
+
+
+
+    
+   
+  
+   
+   
+  
+    
+    
+  }
+

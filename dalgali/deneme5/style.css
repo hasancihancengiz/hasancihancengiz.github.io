@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Play&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+    --darkBlue: rgb(18, 50, 110);
+    --lightBlue: rgb(0, 113, 185);
+    --gray: rgb(212, 216, 218);
+}
+
+html,
+a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    width: 100vw;
+
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    background-image: url(https://unsplash.com/photos/hRemch0ZDwI/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fG9jZWFufHwwfHx8fDE2NDQwMDcyNTk&force=true);
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /*background-image: linear-gradient(var(--gray), rgb(230, 228, 228), var(--gray));*/
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 0.1px 0px 0.5px;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.logo {
+    display: flex;
+    height: 70%;
+    transition: all 0.6s;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+   
+
+
+
+}
+
+nav ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+}
+
+nav ul li a {
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--darkBlue);
+    font-family: 'Play', sans-serif;
+    text-shadow: 0.4px 0.4px 0.4px;
+    height: 100%;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color .2s, background-color .2s;
+
+}
+
+nav ul li a:visited{
+    color: var(--darkBlue);
+}
+
+
+nav ul li a:hover{
+    color: var(--gray);
+    background-color: var(--darkBlue);
+
+}
+header.kuculme .logo{
+    opacity: 0.5;
+    width: 10%;;
+
+    
+}
+

@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template: 100px 50px 500px 25% / 25% 25% 25% 25%;
+
+
+    grid-template-areas: 
+        "A A A A"
+        "B B B B"
+        "C C C C"
+        "D D D D";
+}
+
+#headerId {
+    grid-area: A;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+#navId {
+    grid-area: B;
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    align-self: center;
+    justify-self: center;
+
+}   
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+#mainDivId {
+    grid-area: C;
+    border: 1px solid red;
+    display: flex;
+}
+#leftId{
+    width: 50%;
+}
+#rightId{
+    width: 50%;
+}
+#mapId {
+    grid-area: D;
+    border: 1px solid red;
+}
+#logoId{
+    width: 10p%;
+}
+#res1{
+    width: 100%;
+
+}
+p{
+    width: 100%;
+}
