@@ -8,9 +8,9 @@ body{
 }
 header{
     width: 100vw;
-    height: 400px;
+    height: 100vw;
     background: black;
-    background-image: url(assets/bg.jpg);
+    background-image: url(assets/grk.png);
     background-position: center;
     background-size: cover;
     
@@ -19,11 +19,12 @@ header{
     
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-header svg{
-    height: 80%;
+header #logo{
+    width: 50%;
     text-shadow: 10px 10px 10px;
+    fill: white;
 
 }
 
@@ -36,8 +37,8 @@ header svg{
 
 @media only screen and (max-width: 1008px) {
     header {
-        background-image: url(assets/bg.jpg);
-        height: 150px;
+        
+        height: 100vh;
        
     }
   }
