@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 body{
 
+    
 }
 header{
     width: 100vw;
@@ -19,7 +20,7 @@ header{
     
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 header #logo{
     width: 50%;
