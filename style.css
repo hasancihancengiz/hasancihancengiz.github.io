@@ -1,6 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    background: black;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+h1{
+    margin: 10px;
+    color: rgb(209, 140, 61);
+}
+li , a{
+    color: rgb(122, 67, 4);
+    font-size: larger;
+    text-decoration: none;
+}
+ol{
+    display: flex;
+}
+
