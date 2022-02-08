@@ -7,7 +7,7 @@ header{
     width: 100vw;
     height: 400px;
     background: black;
-    background-image: url(assets/bg.png);
+    background-image: url(assets/bg.jpg);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ header svg{
 
 @media only screen and (max-width: 1008px) {
     header {
-        background-image: url(assets/bg_mobile.png);
+        background-image: url(assets/bg.jpg);
       height: 150px;
     }
   }
