@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 400px;
+    background: black;
+    background-image: url(assets/bg.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header svg{
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1008px) {
+    header {
+      height: 150px;
+    }
+  }
