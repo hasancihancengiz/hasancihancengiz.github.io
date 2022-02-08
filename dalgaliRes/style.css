@@ -9,12 +9,18 @@ header{
     background: black;
     background-image: url(assets/bg.jpg);
     background-position: center;
+    background-size: cover;
+    
+
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 header svg{
     height: 80%;
+    text-shadow: 10px 10px 10px;
+
 }
 
 
