@@ -1,46 +1,48 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
 
-    
-}
-header{
+header {
     width: 100vw;
-    height: 100vw;
-    background: black;
-    background-image: url(assets/grk.png);
+    height: 100vh;
+    background-color: red;
+    background-image: url(assets/bir.jpg);
     background-position: center;
     background-size: cover;
-    
-    
-
-    
     display: flex;
+    position: relative;
     justify-content: center;
-    align-items: center;
-}
-header #logo{
-    width: 50%;
-    text-shadow: 10px 10px 10px;
-    fill: white;
-    
+    align-content: flex-start;
+   
 
 }
 
+header:after {
+
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #12326ee0;
+}
+
+    #logo {
+        width: 30%;
+        height: auto;
+
+        display: flex;
+        position: absolute;
+        align-self: center;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        filter: drop-shadow(3px 3px 3px black);
 
 
 
-
-
-
-
-@media only screen and (max-width: 1008px) {
-    header {
-        
-        height: 100vh;
-       
     }
-  }
