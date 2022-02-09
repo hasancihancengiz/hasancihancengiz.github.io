@@ -1,4 +1,6 @@
-* {
+   
+   
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +17,7 @@ header {
     position: relative;
     justify-content: center;
     align-content: flex-start;
-   
+
 
 }
 
@@ -31,18 +33,32 @@ header:after {
     background: #12326ee0;
 }
 
-    #logo {
-        width: 30%;
-        height: auto;
+#logo {
+    width: 30%;
+    height: auto;
 
-        display: flex;
-        position: absolute;
-        align-self: center;
-        top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        filter: drop-shadow(3px 3px 3px black);
+    display: flex;
+    position: absolute;
+    align-self: center;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(3px 3px 3px black);
 
 
 
-    }
+}
+
+#hamburger{
+    fill: white;
+    display: flex;
+    position: absolute;
+    align-self: center;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(3px 3px 3px black);
+    top: 40px;
+    left: 60px;
+    width: 40px;
+}
