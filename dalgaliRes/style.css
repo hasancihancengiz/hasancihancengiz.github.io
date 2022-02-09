@@ -40,7 +40,7 @@ header:after {
     display: flex;
     position: absolute;
     align-self: center;
-    top: 40px;
+    top: 1rem;
     left: 50%;
     transform: translateX(-50%);
     filter: drop-shadow(3px 3px 3px black);
