@@ -34,7 +34,8 @@ header:after {
 }
 
 #logo {
-    width: 30%;
+    width: 40%;
+
     height: auto;
 
     display: flex;
@@ -60,6 +61,7 @@ header:after {
     top: 1rem;
     left: 1.7rem;
     width: 2rem;
+    height: auto;
 }
 .rez{
     position: absolute;
