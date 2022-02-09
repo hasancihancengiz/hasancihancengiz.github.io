@@ -40,7 +40,7 @@ header:after {
     display: flex;
     position: absolute;
     align-self: center;
-    top: 20px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     filter: drop-shadow(3px 3px 3px black);
@@ -61,4 +61,19 @@ header:after {
     top: 40px;
     left: 60px;
     width: 40px;
+}
+.rez{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    
+}
+.rez h1{
+    background-color: #12326E;
+    border: 0.5px double white ;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
