@@ -22,6 +22,7 @@ header {
     justify-content: center;
     align-content: flex-start;
     transition: 0.5s linear;
+    transition-duration: 1.5s;
     
 
 
@@ -37,7 +38,7 @@ header:after {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #12326ee1;
+    background: #12326e73;
 }
 
 #logo {
@@ -82,6 +83,7 @@ header:after {
     background-color: #12326E;
     border: 0.5px double white ;
     padding: 10px;
+    
     font-weight: 100;
     font-size: 1rem;
     filter: var(--shadowFX);

@@ -20,7 +20,7 @@ setInterval(function () {
 
     if(order>=3){
         order = 0;
-    }}, 2000);
+    }}, 3000);
 
 
 
