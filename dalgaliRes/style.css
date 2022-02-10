@@ -13,7 +13,7 @@ html{
 header {
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    
     background-image: url(assets/bir.jpg);
     background-position: center;
     background-size: cover;
@@ -21,7 +21,7 @@ header {
     position: relative;
     justify-content: center;
     align-content: flex-start;
-    transition: 0.5s linear;
+    transition: 0.5s ease-in-out;
     transition-duration: 1.5s;
     
 

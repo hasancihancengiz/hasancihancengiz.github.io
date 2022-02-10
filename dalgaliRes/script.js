@@ -6,7 +6,7 @@ let strchng = order.toString()
 console.log(strchng);
 
 
-header.style.backgroundImage = "url(assets/" + strchng + ".jpg)";
+
 
 console.log(header.style.backgroundImage)
 
@@ -14,9 +14,10 @@ console.log(header.style.backgroundImage)
 const rez = document.getElementsByTagName("h1");
 
 setInterval(function () {
+    header.style.backgroundImage = "url(assets/" + strchng + ".jpg)";
     order++;
     strchng = order.toString();
-    header.style.backgroundImage = "url(assets/" + strchng + ".jpg)";
+    
 
     if(order>=3){
         order = 0;
