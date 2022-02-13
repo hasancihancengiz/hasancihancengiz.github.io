@@ -5,6 +5,7 @@
 #header{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 .owl-carousel{
     width: 100%;
@@ -30,4 +31,12 @@
     height: 100%;
     width: 100%;
     background: #12326e73;
+}
+.hamburger{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    font-size: 1rem;
+    color: white;
 }
