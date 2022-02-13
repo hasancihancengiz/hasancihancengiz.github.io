@@ -6,6 +6,9 @@ $(document).ready(function(){
         margin:0,
         autoplay:true,
         autoplayTimeout:2500,
-        autoplayHoverPause:true
+        autoplayHoverPause:true,
+        navigator:false,
+        dots:false
+        
     });
   });
