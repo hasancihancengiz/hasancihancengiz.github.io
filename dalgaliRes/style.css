@@ -124,14 +124,14 @@ li{
 }
 .karsilama h1{
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .karsilama p {
     padding-bottom: 2rem;
     font-size: 0.8rem;
 }
 .karsilama button{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
     background: #12326E;
     border-color: white;
