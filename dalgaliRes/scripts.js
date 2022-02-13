@@ -10,4 +10,8 @@ $(document).ready(function(){
         dots:false
         
     });
+    $(".hamburger").click(function(){
+        $(".menu").slideToggle();
+
+      });
   });
