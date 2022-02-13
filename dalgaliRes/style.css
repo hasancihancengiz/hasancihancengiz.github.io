@@ -134,9 +134,9 @@ li{
     font-size: 1.2rem;
     color: white;
     background: #12326E;
-    border-color: white;
+    border-color: #062764;
     padding: 5px;
-   
+    border-width: 3px;
     cursor: crosshair;
     border-style: solid;
     
