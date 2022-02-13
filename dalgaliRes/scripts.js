@@ -12,6 +12,9 @@ $(document).ready(function(){
     });
     $(".hamburger").click(function(){
         $(".menu").slideToggle();
+        $(".hamburger").toggleClass("open");
+        
+        
 
       });
   });

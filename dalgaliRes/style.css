@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ header{
     top: 0;
 }
 nav{
-    background: rgba(255, 2, 2, 0.281);
+    
     position: fixed;
     width: 100%;
     top: 0;
@@ -47,6 +48,7 @@ nav{
     z-index: 99;
     transform: translateX(-50%);
 }
+
 ul li {
     text-decoration: none;
     list-style-type: none;
@@ -69,7 +71,7 @@ ul li {
     object-fit: cover;
     object-position: center;
 }
-img::before {
+.owl-carousel::after {
 
     position: absolute;
     content: '';
@@ -78,11 +80,52 @@ img::before {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #12326e73;
+    background: #12326e;
 }
 
 .bosluk{
-    position: static;
-    height: 6000px;
-    background: black;
+    
+}
+#logo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    opacity: 0.9;
+   
+
+}
+.karsilama{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+    
+}
+.karsilama h1{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.karsilama p {
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+}
+.karsilama button{
+    font-size: 1.8rem;
+    color: white;
+    background: #12326E;
+    border-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: crosshair;
 }
