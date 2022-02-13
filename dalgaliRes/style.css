@@ -46,7 +46,7 @@ img::before {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(12, 0, 0);
+    background: #12326e;
     z-index: 900;
     display: none;
     color: white;
