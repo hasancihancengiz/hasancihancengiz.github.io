@@ -21,7 +21,7 @@
     object-fit: cover;
     object-position: center;
 }
-.owl-carousel:after {
+img::before {
 
     position: absolute;
     content: '';
