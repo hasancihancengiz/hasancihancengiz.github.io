@@ -87,16 +87,25 @@ body{
     flex-direction: column;
     
 }
-.hakkimizda{
+.hakkimizda,
+.lokasyon,
+.rezervasyon
+{
     padding: 10px;
     
     width: 100%;
     height: auto;
 }
-.hakkimizda h1{
+.hakkimizda h1,
+.lokasyon h1,
+.rezervasyon h1
+{
     border-bottom: 1px solid rgb(3, 0, 0);
 }
-.hakkimizda p{
+.hakkimizda p,
+.lokasyon p,
+.rezervasyon p
+    {
     padding-top: 10px;
     color: rgb(199, 199, 199);
    
@@ -127,4 +136,9 @@ body{
     border: 1px solid white;
     background: #12326e;
     letter-spacing: 2px;
+}
+iframe{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
 }
