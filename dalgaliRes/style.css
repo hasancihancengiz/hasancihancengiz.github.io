@@ -159,3 +159,17 @@ li:hover{
     border-style: solid;
     
 }
+.hakkimizda{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: static;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hakkimizda h1{
+    color: white;
+    display: flex;
+}
