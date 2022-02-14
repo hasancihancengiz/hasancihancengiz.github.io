@@ -24,7 +24,7 @@ body{
     height: 75px;
     padding: 10px;
    color: white;
-   background: #12326eb4;
+   background: #12326e;
 }
 .menuLogoArea{
     z-index: 4;
@@ -91,11 +91,11 @@ body{
     position: absolute;
     content: '';
     display: flex;
-    top: 75px;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: #12326eb4;
+    background-image: linear-gradient(to top, rgba(18,50,110,0.6), rgba(255,0,0,0),rgba(18,50,110,0.8) );
 }
 #logo{
     position: absolute;
@@ -140,7 +140,7 @@ body{
    
 }
 .karsilama{
-
+    
     position: absolute;
     display: flex;
     color: white;
