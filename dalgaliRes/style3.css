@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+.logoArea a,
+.logoArea span{
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 100;
 }
 body{
     width: 100vw;
