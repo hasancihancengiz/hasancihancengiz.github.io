@@ -3,61 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cihan Cengiz</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            display: flex;
-            align-items: flex-start;
-            height: 100vh;
-            background-color: black;
-        }
-
-        .color-box {
-            flex: 1;
-            height: 100vh;
-            transition: background-color 0.5s; /* Renk değişim süresi */
-        }
-
-        /* Renk değişimi için animasyon */
-        @keyframes changeColor {
-            0% {
-                background-color: #ff0000;
-            }
-            25% {
-                background-color: #00ff00;
-            }
-            50% {
-                background-color: #0000ff;
-            }
-            75% {
-                background-color: #ff00ff;
-            }
-            100% {
-                background-color: #ffff00;
-            }
-        }
-        h1 {
-            font-size: 100;
-            color: aliceblue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>CihanCengiz</title>
 </head>
 <body>
-    <h1>Cihan Cengiz</h1>
-
-    <!-- 100 adet renkli kutu eklemek için JavaScript kullanılır -->
-    <script>
-        const container = document.body;
-
-        for (let i = 0; i < 100; i++) {
-            const colorBox = document.createElement('div');
-            colorBox.className = 'color-box';
-            colorBox.style.animation = 'changeColor 5s linear infinite';
-            container.appendChild(colorBox);
-        }
-    </script>
-
+    
+    <h1>testing...</h1>
+    
 </body>
 </html>
