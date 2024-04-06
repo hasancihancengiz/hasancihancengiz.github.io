@@ -1,0 +1,13 @@
+{   "chat_id" : "-1002013656196",
+    "reply_to_message_id":"40",
+    "text" : "<b>{{ticker}}</b> : {{close}}\n\n\n⏰ İstenilen bölgeye gelmiştir. \n\n\n {{exchange}}:{{BTCUSDT.P}",
+    "parse_mode":"html",
+    "reply_markup":{
+        "inline_keyboard":[
+            [
+                {"text":"Grafiğe Git", "url":"https://www.tradingview.com/chart/?symbol={{exchange}}:{{ticker}}&interval={{interval}}"}
+            ]
+        ]
+    }
+    
+}
