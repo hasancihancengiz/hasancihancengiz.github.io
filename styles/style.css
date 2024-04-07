@@ -1,0 +1,12 @@
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  
+  color: black;
+}
+a:hover {
+  font-size: 102%;
+  color: blue;
+}
