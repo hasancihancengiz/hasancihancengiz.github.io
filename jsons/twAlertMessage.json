@@ -1,4 +1,16 @@
-{   
-    "chat_id":"-4147321861",
-    "text":"test mesaji"    
+{
+    "chat_id" : "-4147321861",
+    "text" : "<b>{{ticker}}</b> : {{close}}\n Al Sinyali Geldi. ",
+    "parse_mode":"html",
+    "reply_markup":{
+        "inline_keyboard":[
+            [
+                {"text":"Grafiğe Git", "url":"https://www.tradingview.com/chart/?symbol={{exchange}}:{{ticker}}&interval={{interval}}"}
+            ]
+        ]
+    }
+    
 }
+
+
+NOT: SHARING KAPALI ISE KULLANICININ SAYFASINA GIDER
