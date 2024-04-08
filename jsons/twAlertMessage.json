@@ -1,5 +1,5 @@
 {
-    "chat_id" : "-4147321861",
+    "chat_id" : "-*********",
     "text" : "<b>{{ticker}}</b> : {{close}}\n Al Sinyali Geldi. ",
     "parse_mode":"html",
     "reply_markup":{
