@@ -14,3 +14,34 @@
 
 
 NOT: SHARING AÇIK ISE TRADINGVIEW SAHIBININ GRAFIGI USTUNDEKI INDIKATORLERLE BIRLIKTE KULLANICIYA GIDER. KIMIN GRAFIGI ALINACAKSA ONUN CHART ID EKLENMESI GEREKIR
+
+
+
+{
+    "chat_id" : "-4147321861",
+    "text" : "<b>{{ticker}}</b> : {{close}}\n Al Sinyali Geldi. ",
+    "parse_mode":"html",
+    "reply_markup":{
+        "inline_keyboard":[
+            [
+                {"text":"Grafiğe Git","disable_web_page_preview":"false","url":"https://www.tradingview.com/chart/IlAQ1az8/?symbol={{exchange}}:{{ticker}}&interval={{interval}}"
+            }
+            ]
+        ]
+    }
+    
+}
+
+
+
+
+
+
+
+<a href="https://www.tradingview.com/chart/IlAQ1az8/?symbol={{exchange}}:{{ticker}}&interval={{interval}}">inline URL</a>
+
+{
+    "chat_id" : "-4147321861",
+    "text" : "<a href='https://www.tradingview.com/chart/IlAQ1az8/?symbol={{exchange}}:{{ticker}}&interval={{interval}}'>inline URL</a>"   
+    
+}
